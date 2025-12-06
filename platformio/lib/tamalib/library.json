@@ -1,0 +1,22 @@
+{
+  "name": "TamaLIB",
+  "version": "0.1.0",
+  "description": "Hardware-agnostic Tamagotchi emulation library packaged for PlatformIO.",
+  "authors": [
+    {
+      "name": "Jean-Christophe Rona",
+      "email": "jc@rona.fr"
+    }
+  ],
+  "license": "GPL-2.0-or-later",
+  "build": {
+    "flags": [
+      "-std=gnu11",
+      "-Wall",
+      "-Wextra",
+      "-Wno-unused-parameter",
+      "-O2",
+      "-DTAMALIB_PLATFORM=\"ESP32_CYD\""
+    ]
+  }
+}
